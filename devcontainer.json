@@ -1,0 +1,30 @@
+{
+    "name": "mosgarage",
+    "context": "..",
+    "dockerFile": "../Dockerfile",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-outside-of-docker": {}
+    },
+    "customizations": {
+        "mosgarage": {
+            "extensions": [
+                "editorconfig.editorconfig",
+                "davidanson.vscode-markdownlint",
+                "timonwong.shellcheck",
+                "redhat.vscode-yaml",
+                "eamodio.gitlens",
+                "ms-azuretools.vscode-docker",
+                "GitHub.copilot",
+                "GitHub.copilot-chat"
+            ]
+        }
+    },
+    "postCreateCommand": "/usr/local/bin/setup-container",
+    "remoteUser": "mosgarage",
+    "remoteEnv": {
+        "HOST_HOME": "/home/mosgarage/app"
+    },
+    "mounts": [
+        "source=${localEnv:HOME},target=${localEnv:HOME},type=bind,readonly"
+    ]
+}

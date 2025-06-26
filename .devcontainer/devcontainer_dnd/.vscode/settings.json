@@ -1,0 +1,16 @@
+{
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.experimental.asyncTokenizationLogging": true,
+    "editor.experimental.asyncTokenizationVerification": true,
+    "editor.foldingImportsByDefault": true,
+    "multiDiffEditor.experimental.enabled": true,
+    "cmake.options.statusBarVisibility": "visible",
+    "yaml.schemas": {
+        "https://json.schemastore.org/sourcehut-build-0.65.0.json": "file:///c%3A/Users/AdminDevOps/codeserver/.trunk/trunk.yaml"
+    },
+    "powershell.buttons.showPanelMovementButtons": false,
+    "powershell.codeFormatting.autoCorrectAliases": true,
+    "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
+    "powershell.codeFormatting.useCorrectCasing": true,
+    "powershell.codeFormatting.useConstantStrings": true
+}

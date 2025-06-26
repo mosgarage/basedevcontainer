@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../mosgarage"
+		},
+		{
+			"path": "../../../../etc/systemd"
+		},
+		{
+			"path": "../../mosgarage-app-development"
+		}
+	],
+	"settings": {}
+}
