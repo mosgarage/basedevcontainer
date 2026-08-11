@@ -148,7 +148,7 @@ you'll need to be sure you've done a `helm repo add` for any private registry on
 first, you can do that with:
 
 ```bash
-helm repo add artifactory ${REGISTRY_URL} --username=${YOUR_OHIO_ID}
+helm repo add artifactory ${REGISTRY_URL} --username=${YOUR_MG_ID}
 ```
 
 Your password must be an API key or personal access token, not your Ohio password. Note
@@ -179,8 +179,8 @@ in your repository that looks like the following:
 
 ```json
 {
-    "name": "Devcontainer",
-    "image": "ghcr.io/ohioit/vscode-devcontainer-base",
+    "name": "Mosgarage-Devcontainer",
+    "image": "ghcr.io/mosgarage/vscode-devcontainer-base",
     "features": {
         "ghcr.io/devcontainers/features/docker-outside-of-docker": {}
     },
